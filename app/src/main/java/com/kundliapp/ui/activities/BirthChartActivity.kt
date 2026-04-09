@@ -9,6 +9,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.kundliapp.R
 import com.kundliapp.databinding.ActivityBirthChartBinding
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.kundliapp.ui.adapters.PlanetPositionAdapter
 import com.kundliapp.ui.viewmodels.BirthChartViewModel
 import com.kundliapp.utils.AdMobHelper
@@ -43,6 +44,8 @@ class BirthChartActivity : AppCompatActivity() {
         observeViewModel()
         updateDateDisplay()
         updateTimeDisplay()
+
+        binding.rvPlanetPositions.layoutManager = LinearLayoutManager(this)
     }
 
     private fun setupUI() {
@@ -136,7 +139,7 @@ class BirthChartActivity : AppCompatActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        onBackPressed()
+        onBackPressedDispatcher.onBackPressed()
         return true
     }
 }
