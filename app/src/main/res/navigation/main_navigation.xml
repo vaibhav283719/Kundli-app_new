@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kundliapp.ui.fragments.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/zodiacFragment"
+        android:name="com.kundliapp.ui.fragments.ZodiacFragment"
+        android:label="Zodiac" />
+
+    <fragment
+        android:id="@+id/planetsFragment"
+        android:name="com.kundliapp.ui.fragments.PlanetsFragment"
+        android:label="Planets" />
+
+    <fragment
+        android:id="@+id/profilesFragment"
+        android:name="com.kundliapp.ui.fragments.ProfilesFragment"
+        android:label="Profiles" />
+
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.kundliapp.ui.fragments.MoreFragment"
+        android:label="More" />
+
+</navigation>

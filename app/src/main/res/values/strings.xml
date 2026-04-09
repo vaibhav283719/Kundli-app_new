@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kundli App</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="zodiac">Zodiac</string>
+    <string name="planets">Planets</string>
+    <string name="profiles">Profiles</string>
+    <string name="more">More</string>
+
+    <!-- Features -->
+    <string name="birth_chart">Birth Chart</string>
+    <string name="horoscope">Horoscope</string>
+    <string name="compatibility">Compatibility</string>
+    <string name="nakshatras">Nakshatras</string>
+    <string name="houses">Houses</string>
+
+    <!-- Forms -->
+    <string name="full_name">Full Name</string>
+    <string name="birth_place">Birth Place (City, Country)</string>
+    <string name="calculate_kundli">Calculate Kundli</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="profile_saved">Profile saved successfully!</string>
+    <string name="enter_name">Please enter your name</string>
+    <string name="enter_birth_place">Please enter birth place</string>
+
+    <!-- Horoscope -->
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="lucky_numbers">🎯 Lucky Numbers: %s</string>
+    <string name="lucky_colors">🎨 Lucky Colors: %s</string>
+</resources>
